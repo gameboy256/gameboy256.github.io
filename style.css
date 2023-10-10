@@ -1,0 +1,28 @@
+body{
+	background-color:#44a0c7 ;
+	font-family: ;
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+p{
+	font-size: 40px;
+}
+div{
+	background-image: url(программа/21.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: px;
+}
+butten{
+	width: auto;
+	height: auto;
+	background-color: black;
+	border-radius: 50px;
+}
+a{
+	font-size: 20px;
+	color: purple;
+	text-decoration: none;
+}
