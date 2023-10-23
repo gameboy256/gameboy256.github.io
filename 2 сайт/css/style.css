@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #82c21b;
+	font-family: 'Courgette', cursive;
+}
+.main{
+	background-color: #1bc2a3;
+	display: flex;
+	width: 95%;
+	margin: auto;
+	box-shadow: 0 0 20px 5px black;
+	flex-wrap: wrap;
+}
+.item{
+	height: 500px;
+	width: 668px;
+	margin: 10px;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+	opacity: 0.7;
+}
+.heading{
+	font-size: 70px;
+	color: black;
+	width: 100%;
+	text-align: center;
+	margin: 30x;
+}
+.item:hover{
+	transform:rotate(-20deg);
+	box-shadow: 0 0 50px 10px #1f0cf2;
+	opacity: 1;
+}
